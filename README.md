@@ -1,4 +1,4 @@
-# Using Sentiment Analysis, Machine Learning in D365 to predict Win/Loss of opportunity
+# BA-SA-ST204 - Using Sentiment Analysis, Machine Learning in D365 to predict Win/Loss of opportunity
 
 Welcome to the BA-SA-ST204 wiki! This page will show you all the steps that are required to complete the lab. Let's get started. 
 
