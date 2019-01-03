@@ -4,7 +4,7 @@ Welcome to the BA-SA-ST301 wiki! This page will show you all the steps that are 
 
 ## Prerequisites - 
 
-  ###Sample Data Import
+  ### Sample Data Import
   
   Here are the steps you need to follow to get sample data imported into your D365 CE instance:
 
