@@ -2,6 +2,28 @@
 
 Welcome to the BA-SA-ST301 wiki! This page will show you all the steps that are required to complete the lab. Let's get started. 
 
+## Prerequisites - 
+
+  ###Sample Data Import
+  
+  Here are the steps you need to follow to get sample data imported into your D365 CE instance:
+
+1. Logic to your Dynamics 365 CE Instance, go to Settings -> Data Management
+2. Go to Sample Data
+3. Click on Import Sample Data
+4. You will get a notification telling that this request will be processed in the background. You can close that popup notification. 
+5. If you want to check status of Sample Data Imports, go to Settings -> Data Management -> Imports
+6. You will notice there are several imports for Sample Data that will be either in one of these statuses - Parsing, Transforming, Importing, Completed. Once all are completed, we are good to go ahead.
+
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(552).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(553).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(554).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(555).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(553).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(556).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(557).png)
+
+  
 Here are the steps you need to follow for this lab:
 
 ## 1. Dynamics 365 CE Customization
