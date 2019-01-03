@@ -29,13 +29,24 @@ Here are the steps you need to follow for this lab:
 ## 1. Dynamics 365 CE Customization
 We will set up things required in Dynamics 365 CE in this section. Nothing major, we'll just a couple of fields for storing Text Sentiment Analysis data for each opportunity.
 
-* Logic to Dynamics 365 CE using test credentials provided.
-* Navigate to Settings -> Solutions
-* Click on import, and navigate to Opportunities_SentimentAnalysis_1_0_0_0.zip
-* Click on Next
-* Click on Import
-* After import is completed successfully, click on Publish All Customizations.
-* Verify that Opportunity entity has the new fields created and added to its main form: Customer Need Sentiment Score, Current Situation Sentiment Score, Proposed Solution Sentiment Score, Notes Average Sentiment Analysis Score
+1. Logic to Dynamics 365 CE using test credentials provided.
+2. Navigate to Settings -> Solutions
+3. Click on import, and navigate to Opportunities_SentimentAnalysis_1_0_0_0.zip
+4. Click on Next
+5. Click on Import
+6. After import is completed successfully, click on Publish All Customizations.
+7. Verify that Opportunity entity has the new fields created and added to its main form: Customer Need Sentiment Score, Current Situation Sentiment Score, Proposed Solution Sentiment Score, Notes Average Sentiment Analysis Score
+8. Navigate to Settings -> Data Management -> Imports
+9. Click on Import Data button from Ribbon bar, and browse to your Opportunities csv file, click on Next
+10. Click on Next in Review File Upload Summary screen
+11. Click on Next in Select Data Map screen by leaving default options selected
+12. On Map Record Types screen, select Opportunity in drop down for D365 Record Types, and click on Next.
+13. There will be only 1 field that will not be mapped by default, its (Do Not Modify) Opportunity, you need to select Opportunity (Primary Key) in its drop down, and click on Next
+14. On Review Mapping Summary screen, click on Next
+15. On Review Settings screen, keep the default options selected as is, and click on Submit
+16. You can check status of your Import in the My Imports View.
+17. Follow steps 8 to 16 to import Notes data as well into Dynamics 365 CE.
+
 
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(317).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(318).png)
@@ -45,6 +56,30 @@ We will set up things required in Dynamics 365 CE in this section. Nothing major
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(315).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(313).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(316).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(552).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(553).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(558).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(559).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(560).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(561).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(562).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(563).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(564).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(565).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(566).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(552).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(553).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(558).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(567).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(568).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(569).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(570).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(571).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(572).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(573).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(574).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(575).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(576).png)
 
 
 ## 2. Text Analytics service creation in Azure.
