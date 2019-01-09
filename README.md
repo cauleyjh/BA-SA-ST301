@@ -331,6 +331,7 @@ This is the last section of this Lab, here we will be developing a Logic App, wh
 `statecode eq 0 and name ne null and actualvalue ne null and budgetamount ne null and new_currentsituationsentimentscore ne null and new_proposedsolutionsentimentscore ne null and new_notesaveragesentimentanalysisscore ne null and new_customerneedsentimentscore ne null and opportunityratingcode ne null`
 
 * Add a new step and select Foreach from Control Built-In section. Select value from dynamic content popup for the output from previous step field in foreach action.
+* Go to settings for this newly added foreach step, and switch On the Concurrency Control and set Degree of Parallelism to 1. 
 * Add a new step and select HTTP Request from actions.
 * In url, add the API URL for your ML Web Service - Request Response API.
 * Add following 3 headers as per the key:value pairs mentioned below:
@@ -462,6 +463,7 @@ e.g. Topic should be the first field added to Values array, Potential Customer s
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(446).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(447).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(448).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(587).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(449).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(450).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(451).png)
