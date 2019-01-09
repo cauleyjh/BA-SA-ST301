@@ -202,7 +202,7 @@ We will now create a Logic App that will use the Text Sentiment Analytics API to
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(370).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(371).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(372).png)
-![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(369).png)
+![](https://github.com/crazyLearning/BA-SA-ST301/blob/master/images/Screenshot%20(586).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(373).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(374).png)
 ![](https://github.com/crazyLearning/BA-SA-ST204/blob/master/images/Screenshot%20(375).png)
