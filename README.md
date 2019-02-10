@@ -8,7 +8,7 @@ Welcome to the BA-SA-ST301 wiki! This page will show you all the steps that are 
   
   Here are the steps you need to follow to get sample data imported into your D365 CE instance:
 
-1. Logic to your Dynamics 365 CE Instance, go to Settings -> Data Management
+1. Login to your Dynamics 365 CE Instance, go to Settings -> Data Management
 2. Go to Sample Data
 3. Click on Import Sample Data
 4. You will get a notification telling that this request will be processed in the background. You can close that popup notification. 
