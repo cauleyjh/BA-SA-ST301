@@ -113,12 +113,10 @@ We will now create a Logic App that will use the Text Sentiment Analytics API to
 * Click on Create
 * Navigate to Logic App Designer from left pane, and then select Recurrence.
 * Set Interval to 1, and Frequency to Day.
-* Create variable with name Opportunity of type Object.
+* Create variable with name Opportunities of type Array.
 * Create variable with name NoteText of type String. 
-* Create variable with name Opportunity of type Object.
 * Create variable with name SumOfSentimentScore of type Float, and initiative it with 0.
 * Create variable with name Count of type Integer, and initiative it with 0.
-* Create variable with name SumOfSentimentScore of type Float, and initiative it with 0.
 * Create variable with name Average Sentiment Score of type Float, and initiative it with 0.
 * Add a new step, of type Dynamics 365 and then select List Records (Preview) from Actions.
 * Select your Dynamics 365 CE instance in Organization Name, and select Opportunities entity in the Entity name field.
@@ -152,7 +150,7 @@ We will now create a Logic App that will use the Text Sentiment Analytics API to
 * Add a Text Analytics step,  and pass the variable NoteText to it as input.
 * Increment SumOfSentimentScore variable with score output of the NoteText Detect Sentiment step.
 * Increment Count variable by 1.
-* Outside the Notes Foreach loop, add a condition to check whether count variable is greater than 1 or not.
+* Outside the Notes Foreach loop, add a condition to check whether count variable is greater than 0 or not.
 * Now inside the True section of the condition step, add a set variable action, and set the Average Sentiment Score variable to this expression:
 
 `div(variables('SumOfSentimentScore'), variables('Count'))`
