@@ -126,7 +126,7 @@ We will now create a Logic App that will use the Text Sentiment Analytics API to
 * Once you are connected, select Current Situation field from Dynamic Content popup.
 * Add a new Text Analytics action, and select Customer Need field from from Dynamic Content popup.
 * Add a new Text Analytics action, and select Proposed Solution field from from Dynamic Content popup.
-* Add a new Set Variable step, and paste below JSON in the value field.
+* Add a new Append to Array step, and paste below JSON in the value field.
 
 `{
   "CurrentSituation": "",
