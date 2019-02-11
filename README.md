@@ -241,7 +241,7 @@ Now we will create Machine Learning Experiment Studio workspace in Azure.
 * Add edit metadata component from Data Transformation -> Manipulation -> Edit Metadata
 * Select Edit Metadata component that you added to experiment, click on Launch column selector.  Add Potential Customer, Account, Decide Go/No-Go, Rating and Status to Selected Columns to right from list of available columns and click on OK button. Once the popup window closes, from right panel, select Make Categorical option from Categorical dropdown.
 * Add split data component from Data Transformartion -> Sample and Split -> Split Data
-* Add Two-Class Bayes Point Machine and Two-Class Boosted Decision Tree classification models from Machine Learning -> Classification
+* Add Two-Class Bayes Point Machine and Two-Class Boosted Decision Tree classification models from Machine Learning -> Initialize Model -> Classification
 * Add two Train Model components from Machine Learning -> Train -> Train Model, just below each classification model components added in previous step.
 * For both of the Train Model components, select them, click on Launch Column Selector on right and select Status in the list of Selected Columns in the popup. Click on OK button.
 * Add two Score Model components from Machine Learning -> Score -> Score Model. 
